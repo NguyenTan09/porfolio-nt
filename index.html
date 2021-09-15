@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>XC Film Productions</title>
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<script src="https://kit.fontawesome.com/efa8feba1a.js" crossorigin="anonymous"></script>
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> 
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.3/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+		<script src="https://unpkg.co/gsap/dist/gsap.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+		<script src="javascript/myscript.js"></script>
+	</head>
+	<body>
+		<div class="loading-page">
+			<h1 class="ml11">
+				<span class="text-wrapper">
+					<span class="line line1"></span>
+					<span class="letters">XC Film Productions</span>
+				</span>
+			</h1>
+			<div class="blocks">
+				<ul class="blocks">
+					<li class="block-1"></li>
+					<li class="block-2"></li>
+					<li class="block-3"></li>
+					<li class="block-4"></li>
+					<li class="block-5"></li>
+					<li class="block-6"></li>
+				</ul>
+			</div>
+			
+		</div>
+		<!-- loading page  -->
+		<div id="wrapper">
+			<header>
+				<div class="container">
+					<div class="row">
+						<div class="col-3">
+							<nav class="about">		
+								<ul>
+									<li><a href="">Nguyen Tan</a></li>
+									<li><a href="">UX/UI Designer</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-6"></div>
+						<div class="col-1">
+							<nav class="menu">
+								<ul>
+									<li><a href="">About</a></li>
+									<li><a href="">Projects</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-1">
+							<nav class="social-media">
+								<ul>
+									<li>
+										<a href="">Behance</a>
+									</li>
+									<li>
+										<a href="">Dribbble</a>
+									</li>
+									<li>
+										<a href="">Email</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="col-1">
+							<div class="menu-open">Menu</div>
+							<div class="nav-container">
+								<div class="menu-close">close</div>
+								<div class="socials">
+									<span>facebook</span>
+									<span>instagram</span>
+								</div>
+								<nav class="menu-ex">
+									<div class="menu__item">
+										<a class="menu__item-link">Home</a>
+										<img class="menu__item-img" src="menu-img-one.jpg" />
+										<div class="marquee">
+											<div class="marquee__inner">
+												<span>Home - Home - Home - Home - Home - Home - Home</span>
+											</div>
+										</div>
+									</div>
+									<div class="menu__item">
+										<a class="menu__item-link">About Me</a>
+										<img class="menu__item-img" src="menu-img-two.jpg" />
+										<div class="marquee">
+											<div class="marquee__inner">
+												<span>About - About - About - About - About - About
+													- About</span>
+											</div>
+										</div>
+									</div>
+									<div class="menu__item">
+										<a class="menu__item-link">Projects</a>
+										<img class="menu__item-img" src="menu-img-three.jpg" />
+										<div class="marquee">
+											<div class="marquee__inner">
+												<span>Projects - Projects - Projects - Projects - Projects - Projects - Projects</span>
+											</div>
+										</div>
+									</div>
+									<div class="menu__item">
+										<a class="menu__item-link">Contact</a>
+										<img class="menu__item-img" src="menu-img-four.jpg" />
+										<div class="marquee">
+											<div class="marquee__inner">
+												<span>Contact - Contact - Contact - Contact - Contact - Contact -
+													Contact</span>
+											</div>
+										</div>
+									</div>
+								</nav>
+							</div>
+						</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!-- Header : Done  -->
+			<section id="banner-page">
+				<div class="content-info">
+					<div class="info">
+						<p>
+							Hello! I'm Nguyen Tan, based in HCM<br>
+							I am a passionate and creative UI/UX Designer <br>
+							with experience in creating highly polished <br>
+							Interfaces for the web and mobile.
+						</p>
+						<a href="#">Read more about me <i class="fas fa-arrow-right"></i></a>
+					</div>
+				</div>
+				<div class="pic-main">
+					<img src="images/camera-main.jpg" alt="">
+				</div>
+			</section>
+		</div>
+				
+
+
+
+
+
+
+
+
+
+
+
+
+		
+
+		<!-- <script>
+			TweenMax.staggerTo(
+				"li",
+				2,
+				{
+					delay: 0.4,
+					ease: Expo.easeInOut,
+					scaleY: 0.3,
+				},
+				0.1
+			);
+
+			TweenMax.to("li", 2, {
+				delay: 2.8,
+				ease: Expo.easeInOut,
+				width: "10px",
+			});
+
+			TweenMax.staggerTo(
+				"li",
+				1.6,
+				{
+					delay: 4.8,
+					ease: Expo.easeInOut,
+					y: "100%",
+				},
+				0.06
+			);
+
+			// Wrap every letter in a span
+			var textWrapper = document.querySelector(".ml11 .letters");
+			textWrapper.innerHTML = textWrapper.textContent.replace(
+				/([^\x00-\x80]|\w)/g,
+				"<span class='letter'>$&</span>"
+			);
+
+			anime
+				.timeline()
+				.add({
+					targets: ".ml11 .line",
+					scaleY: [0, 1],
+					opacity: [0.5, 1],
+					easing: "easeOutExpo",
+					duration: 700,
+					delay: 6000,
+				})
+				.add({
+					targets: ".ml11 .line",
+					translateX: [
+						0,
+						document.querySelector(".ml11 .letters").getBoundingClientRect()
+							.width + 10,
+					],
+					easing: "easeOutExpo",
+					duration: 700,
+					delay: 100,
+				})
+				.add({
+					targets: ".ml11 .letter",
+					opacity: [0, 1],
+					easing: "easeOutExpo",
+					duration: 600,
+					offset: "-=775",
+					delay: (el, i) => 34 * (i + 1),
+				})
+				.add({
+					targets: ".ml11",
+
+					duration: 1000,
+					easing: "easeOutExpo",
+					delay: 1000,
+				});
+		</script> -->
+		<script type="text/javascript">
+			function openFunction(){
+			 document.getElementById("menu").style.width="200px";
+			 document.getElementById("mainbox").style.marginLeft="200px";
+			}
+		   function closeFunction(){
+			document.getElementById("menu").style.width="0px";
+			document.getElementById("mainbox").style.marginLeft="0px";
+		   }
+		   </script>
+		   <script>
+			var t1 = new TimelineMax({ paused: true });
+
+			t1.to(".nav-container", 1, {
+				left: 0,
+				ease: Expo.easeInOut,
+			});
+
+			t1.staggerFrom(
+				".menu > div",
+				0.8,
+				{ y: 100, opacity: 0, ease: Expo.easeOut },
+				"0.1",
+				"-=0.4"
+			);
+
+			t1.staggerFrom(
+				".socials",
+				0.8,
+				{ y: 100, opacity: 0, ease: Expo.easeOut },
+				"0.4",
+				"-=0.6"
+			);
+
+			t1.reverse();
+			$(document).on("click", ".menu-open", function () {
+				t1.reversed(!t1.reversed());
+			});
+			$(document).on("click", ".menu-close", function () {
+				t1.reversed(!t1.reversed());
+			});
+		</script>
+	</body>
+	
+</html>
